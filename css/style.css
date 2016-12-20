@@ -1,0 +1,139 @@
+/*******************************
+ Basic Page Styles
+*******************************/
+
+body{
+  margin: 0;
+  font-family: verdana, sans-serif;
+  font-size: 0.85em;
+  background: #eac657;
+}
+
+#wrapper {
+  width: 920px;
+  margin: 0 auto;  
+}
+
+
+/*******************************
+ Header
+*******************************/
+
+#header {
+  float: left;
+  margin: 20px 0;
+  width: 100%;
+}
+
+h1 {
+  float: left;
+  margin: 0;
+  text-indent: -20000px; /* this will leave the text in the HTML for screen readers to pick up on, but visually, we'll be able to replace this with a background image, so we can put in any kind of a logo we want without having to worry about actually styling the real text */
+  width: 300px;
+  height: 66px;
+  background: url('../img/widget.png') top left no-repeat;
+}
+
+
+
+/*******************************
+ Navigation
+*******************************/
+
+#nav {
+  margin-top: 20px;
+  list-style: none;
+  float: right;
+}
+
+#nav li {
+  float: left;
+  margin-left: 20px;
+}
+
+a {
+  font-size: 1.4em;
+  font-weight: bold;
+  padding: 10px;
+  background: url('../img/texture.png') top center;
+  color: #eac657;
+  text-decoration: none;
+  border-radius: 10px;
+}
+
+a:hover, a:focus {
+  color: #d2b14e;
+  background: #000;
+}
+
+
+/*******************************
+ Content
+*******************************/
+
+img {
+  max-width: 100%;  /* make all images fluid*/
+}
+
+#widget_pic {       /* it forms our right column */
+  float: left;
+  width: 30%;
+  margin-left: 5%;
+  height: 300px;
+}
+
+#content {         /* it forms our left column */
+  float: left;
+  width: 65%;
+}
+
+#about {
+  font-size: 1.3em;
+  margin: 20px 0px;
+  float: left;     /* to remove any sort of clearing problems with our floats */
+}
+
+#about p {
+  background: #d2b14e;
+  padding: 20px;
+  font-style: italic;
+  font-size: 0.9em;
+}
+
+
+/*******************************
+ Table
+*******************************/
+
+#compare {
+  float: left;
+  font-weight: bold;  
+}
+ 
+ #product_table {
+   float: left;
+   width: 100%;
+   font-size: 1.2em;
+ }
+
+#product_table thead {
+  background: url('../img/texture.png') top left;
+  color: #EEE;
+  text-align: left;    /* because by default text is centered in theads */
+}
+
+#product_table th, #product_table td {
+  padding: 10px;
+}
+
+#product_table td {
+  background: #d2b14e;
+  color: #333;
+}
+
+
+
+
+
+
+
